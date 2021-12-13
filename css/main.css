@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Bentham&family=Cormorant+Garamond&family=Roboto&family=Zilla+Slab');
+
+@font-face {
+    font-family: Title-Font;
+    src: url(/misc/TitleFont.ttf);
+  }
+
+/* background-color: teal; */
+
+
+
+.logo {
+    padding-bottom: 50px;
+}
+
+
+content section {
+    height: 100vh;
+    min-height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Cantana One", serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1em;
+    color: #000000; }
+
+
+
+/*content section {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Cantana One", serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1em;
+    color: #000000;
+ }*/
+
+content h1 {
+    text-transform: uppercase;
+    font-size: 3em;
+    color: #000000;
+    font-family: "Zilla Slab" , serif;
+}
+
+content h2 {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    color: #000000;
+    font-family: "Zilla Slab", serif; 
+}
+
+content p {
+    text-transform: none;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.04vw;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%; 
+}
+
+content .footer {
+    font-size: 0.8em;
+    color: grey; 
+}
+
+content td {
+    width: 33%;
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+content .email {
+    text-transform: lowercase;
+    letter-spacing: 0.4pt;
+    font-size: 10pt;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+}
+
+
+
+
+content .btn {
+    font-size: 1em;
+    text-transform: none; 
+}
+
+content.open {
+    position: relative;
+    z-index: -1; 
+}
+
+.fa-sort-down {
+    width: 30px;
+    animation: move 1s infinite alternate;
+}
+
+.fab {
+    color: rgb(65, 65, 65);
+}
+
+.fas  {
+    color: black;
+}
+
+.fas:hover, .fab:hover {
+    /*color: rgb(160, 160, 160);*/
+    opacity: 0.7;
+    cursor: pointer; 
+}
+
+
+@media (min-width: 980px) {
+    .fa-sort-down {
+        visibility: hidden;
+    }
+
+    content section {
+        height: 100vh;
+    }
+}
+
+@keyframes move {
+    from {
+        transform: translateY(0px);
+    }
+
+    to {
+        transform: translateY(20px);
+    }
+}
+
+ul li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+    
+.logo {
+    width: 300px;
+}
+
+.title {
+    font-size: 1em;
+}
+
+.fab {
+    font-size: 0.7em;
+}
+
+
+@media (min-width: 400px) {
+    
+    .logo {
+       width: 350px;
+    }
+
+    .title {
+        font-size: 1em;
+    }
+
+    .fab {
+        font-size: 0.5em;
+    }
+
+}
+
+@media (min-width: 400px) {
+    
+    .logo {
+       width: 380px;
+    }
+
+    .title {
+        font-size: 1.5em;
+    }
+
+    .fab {
+        font-size: 1em;
+    }
+
+}
+
+@media (min-width: 600px) {
+    
+    .logo {
+       width: 400px;
+    }
+
+    .title {
+        font-size: 2em;
+    }
+
+    .fa-sort-down {
+        visibility: hidden;
+    }
+
+}
+
+@media (width: 375px) and (height: 812px) {
+    
+    .logo {
+       width: 360px;
+    }
+
+    .title {
+        font-size: 1.7em;
+    }
+
+    .fab {
+        font-size: 1em;
+    }
+
+}
+
+@media (min-width: 800px) {
+    
+    .logo {
+       width: 420px;
+    }
+
+    .title {
+        font-size: 3em;
+    }
+
+}
+
+
+    
+
+
+@media (width: 1024px) and (height: 1366px) {
+    .fa-sort-down {
+        visibility: visible;
+    }
+
+    .logo {
+        width: 500px;
+     }
+}
+
+@media (width: 768px) and (height: 1024px) {
+    .fa-sort-down {
+        visibility: visible;
+    }
+
+    .logo {
+        width: 500px;
+     }
+}
+
+
+
+
+
+
+
+/* @media (min-width: 981px) and (max-width: 1499px) { 
+    .logo {
+        width: 300px;
+        height: auto;
+    }
+
+    .title {
+        font-size: 2.5em;
+    }
+
+}
+
+@media (min-width: 1500px) { 
+    .logo {
+        width: 700px;
+        height: auto;
+    }
+
+    .title {
+        font-size: 4em;
+    }
+    
+}
+
+@media (max-width: 980px) and (min-width: 501px;) { 
+    .logo {
+        width: 200px;
+        height: auto;
+    }
+
+    .title {
+        font-size: 2em;
+    }
+    
+}
+
+@media (max-width: 500px) { 
+    .logo {
+        width: 250px;
+        height: auto;
+    }
+
+    .title {
+        font-size: 1.5em;
+    }
+
+}
+
+content {
+    overflow: hidden;
+} */
+      
+      
+   
+      

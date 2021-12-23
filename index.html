@@ -4,16 +4,16 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>DMB21</title>
+        <title>Downing May Ball 2022</title>
         <link rel="stylesheet" type="text/css" href="css/main.css">
         <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="favicon/">
-        <link rel="manifest" href="favicon/site.webmanifest">
+        <link rel="manifest" href="favicon/manifest.json" crossorigin="use-credentials">
         <script src="https://kit.fontawesome.com/71c235aa2e.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        <script src="js/main.js"></script>
+        <!-- <script src="js/main.js"></script> -->
         <script
         src="https://code.jquery.com/jquery-3.1.1.min.js"
         integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
@@ -21,23 +21,20 @@
         <script src="https://unpkg.com/scrollreveal"></script>
         
     </head>
-
-    <!-- Get out of the code, i'm not a compsci!-->
-
-
-    <content>
-        <section>
-            <div id="top-section" align="center">
+    <body>
+        <header style='display: block;'>
                 <div align="center" >
                     <img class="logo"
-                        src="img/logo.png"
+                        src="img/logo.svg"
                     >
                     
                 </div>
-                <h1 class="title" style="font-family: Title-Font; text-transform: initial;">The Return of the May Ball...</h1>
+                <h1 class="title" style="font-family: Title-Font; text-transform: initial;" align="center"
+                >The Return of the May Ball...
+                </h1>
                 
-                <div align="center" class="mt-1"></div>
-                    <h1 class="reveal mt-2">
+                <div class="reveal" class="mt-1">
+                    <h2 class="reveal mt-2" align="center">
                         <a
                             target="blank"
                             href="https://www.facebook.com/DowningMayBall2022/"
@@ -48,17 +45,13 @@
                             href="https://www.instagram.com/downingmayball/"
                             ><i class="fab fa-instagram"></i
                         ></a>
-                    </h1>
-                    <h1><a name="reveal" href="#scrollto"><i class="fas fa-sort-down button pt-0"></i></a></h1>
+                            </h2>
+                    <a name="reveal" href="#scrollto"><i class="fas fa-sort-down button pt-0"></i></a>
                 </div>
-            
-                
-            </div>
-        </section>
+        </header>
 
-        
-        <br><br>
        <hr>
+       <main>
 
         <div class="mt-5 scroll-to" id="scrollto" style="outline: none;">
             <table class="table table-borderless mt-5">
@@ -430,7 +423,7 @@
             <h1 class="reveal mt-2">
                 <a
                     target="blank"
-                    href="https://www.facebook.com/DowningMayBall2021/"
+                    href="https://www.facebook.com/DowningMayBall2022/"
                     ><i class="fab fa-facebook-square"></i
                 ></a>
                 <a
@@ -440,15 +433,13 @@
                 ></a>
             </h1>
             <p class="footer reveal">
-                Downing May Ball 2021, All Rights Reserved<br>
+                Downing May Ball 2022, All Rights Reserved<br>
                 <a target="blank" href="#" style="color: grey">Privacy Policy</a>
             </p>
         </div>
-        
 
 
-
-    </content>
+    </main>
 
     <script>
 
@@ -457,7 +448,7 @@
         ScrollReveal({ duration: 1500 });
         setTimeout(function() {
             $("header").addClass("open");
-            toggleClock();
+            // toggleClock();
         }, 1000);
         setTimeout(function() {
             $("header").hide();
@@ -472,7 +463,7 @@
             $(".email").on("click", function(event) {
                 event.preventDefault();
                 var email = $(this).data("href");
-                var subject = "Downing May Ball 2021 Enquiry";
+                var subject = "Downing May Ball 2022 Enquiry";
                 var emailBody = "";
                 window.location =
                     "mailto:" +
@@ -522,6 +513,6 @@
         });
     </script>
 
-
+    </body>
 </html>
 

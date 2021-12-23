@@ -5,26 +5,35 @@
     src: url(/misc/TitleFont.ttf);
   }
 
-/* background-color: teal; */
-
-
+body {
+    background-color: white !important;
+}
 
 .logo {
-    padding-bottom: 0px;
-    width: min(500px, 100%);
-    margin: auto;
+    width: min(1000px, 100%);
 }
 
 header {
-    display: block !important;
+    display: flex !important;
     width: auto;
-    display: flex;
+    flex-flow: column nowrap;
     align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    text-transform: uppercase;
+    font-size: 3em;
+    color: #000000;
+    font-family: "Zilla Slab" , serif;
+}
+
+main {
+    max-width: 120ch;
     margin: auto;
 }
 
-
-main section {
+/* main section {
     height: 100vh;
     min-height: 700px;
     display: flex;
@@ -35,7 +44,7 @@ main section {
     text-transform: uppercase;
     font-size: 1em;
     color: #000000; }
-
+ */
 
 main h1 {
     text-transform: uppercase;
@@ -51,7 +60,7 @@ main h2 {
     font-family: "Zilla Slab", serif; 
 }
 
-main p {
+p {
     text-transform: none;
     font-size: 16px;
     font-family: "Roboto", sans-serif;
@@ -62,7 +71,7 @@ main p {
     padding-right: 15%; 
 }
 
-main .footer {
+footer {
     font-size: 0.8em;
     color: grey; 
 }
@@ -155,10 +164,6 @@ main.open {
 @media (min-width: 980px) {
     .fa-sort-down {
         visibility: hidden;
-    }
-
-    main section {
-        height: 100vh;
     }
 }
 

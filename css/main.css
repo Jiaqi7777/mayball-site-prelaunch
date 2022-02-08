@@ -267,10 +267,15 @@ ul li {
 
 .flex {
     display: flex;
-    padding-inline: 5%;
+    padding-inline: 0%;
+    justify-content: center;
 
     flex-flow: row nowrap;
     gap: 1em
+}
+
+.flex .ticket {
+    width: 25%
 }
 
 .price {
@@ -296,6 +301,10 @@ section strong {
     .flex {
         flex-flow: column nowrap;
         padding-inline: 15%;
+    }
+
+    .flex .ticket {
+        width: 100%;
     }
 
     .separator {

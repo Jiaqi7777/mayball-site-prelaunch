@@ -262,3 +262,44 @@ ul li {
     }
 }
 
+
+/* Ticket price style */
+
+.flex {
+    display: flex;
+    padding-inline: 5%;
+
+    flex-flow: row nowrap;
+    gap: 1em
+}
+
+.price {
+    font-weight: bold;
+    font-size: 1.1em
+}
+
+.price-desc {
+    font-size: 0.7em;
+    line-height: 0px;
+}
+
+section strong {
+    font-weight: bold;
+}
+
+.separator {
+    background: var(--clr-text-secondary);
+    width: 1px;
+}
+
+@media (max-width: 1024px) {
+    .flex {
+        flex-flow: column nowrap;
+        padding-inline: 15%;
+    }
+
+    .separator {
+        height: 1px;
+        width: 100%;
+    }
+}

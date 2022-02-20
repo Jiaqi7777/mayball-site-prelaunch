@@ -67,6 +67,10 @@ h2 {
     font-family: "Zilla Slab", serif; 
 }
 
+.ball-date {
+    font-size: 5em;
+}
+
 p {
     text-transform: none;
     font-size: 16px;
@@ -269,9 +273,10 @@ ul li {
     display: flex;
     padding-inline: 0%;
     justify-content: center;
+    align-items: center;
 
     flex-flow: row nowrap;
-    gap: 1em
+    gap: 1em;
 }
 
 .flex .ticket {
@@ -296,6 +301,7 @@ section strong {
 .separator {
     background: var(--clr-text-secondary);
     width: 1px;
+    height: 20em;
 }
 
 @media (max-width: 1024px) {

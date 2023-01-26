@@ -6,14 +6,14 @@
   }
 
 :root {
-    --clr-blue: #008389;
+    --clr-blue: #1C045C;
     --clr-logo: white;
     --clr-text-primary: white;
     --clr-text-secondary:#CAFCFF;
 }
 
 body {
-    background-color: #1C045C !important;
+    background-color: var{--clr-blue} !important;
 }
 
 .logo {

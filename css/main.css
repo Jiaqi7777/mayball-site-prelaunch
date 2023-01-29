@@ -13,7 +13,7 @@
 }
 
 body {
-    background-color: #1C045C !important;
+    background-color: var(--clr-blue) !important;
 }
 
 .logo {
@@ -302,6 +302,10 @@ section strong {
     background: var(--clr-text-secondary);
     width: 1px;
     height: 20em;
+}
+
+.adds-on {
+    flex-flow: row;
 }
 
 @media (max-width: 1024px) {

@@ -272,7 +272,7 @@ ul li {
 .flex {
     display: flex;
     padding-inline: 0%;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 
     flex-flow: row nowrap;
@@ -302,6 +302,12 @@ section strong {
     background: var(--clr-text-secondary);
     width: 1px;
     height: 20em;
+}
+
+.separator_line {
+    background: var(--clr-text-secondary);
+    width: 40em;
+    height: 1px;
 }
 
 .adds-on {

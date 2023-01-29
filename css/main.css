@@ -305,6 +305,7 @@ section strong {
 }
 
 .adds-on {
+    width: 75%;
     flex-flow: row;
 }
 

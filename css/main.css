@@ -328,10 +328,20 @@ section strong {
 
     .flex .ticket {
         width: 100%;
+        flex-flow: row nowrap;
     }
 
     .separator {
         height: 1px;
         width: 100%;
+    }
+    .add-on-title {
+        width: 100%;
+        flex-flow: row;
+    }
+    
+    .add-on {
+        width: 100%;
+        padding-block: 2em;
     }
 }

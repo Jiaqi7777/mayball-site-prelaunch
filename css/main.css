@@ -426,13 +426,7 @@ section strong {
     width: 33%;
     padding-block: 2em;
 }
-.add-on_line{
-    background: var(--clr-text-secondary);
-    width: 1px;
-    height:20em;
-    background:
-      repeating-linear-gradient(90deg, var(--clr-text-secondary) 0 10px,#0000 0 12px)
-}
+
 
 @media (max-width: 1024px) {
     .flex {
@@ -463,11 +457,5 @@ section strong {
     .add-on {
         width: 100%;
         padding-block: 2em;
-    }
-    .add-on_line{
-        width: 70%;
-        height: 1px;
-        background:
-          repeating-linear-gradient(90deg, var(--clr-text-secondary) 0 10px,#0000 0 12px)
     }
 }

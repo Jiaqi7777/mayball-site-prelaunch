@@ -206,7 +206,24 @@ ul li {
     .fab {
         font-size: 0.5em;
     }
+    .flex .ticket {
+        width: 100%;
+        flex-flow: row nowrap;
+    }
 
+    .separator {
+        height: 1px;
+        width: 100%;
+    }
+    .add-on-title {
+        width: 100%;
+        flex-flow: row;
+    }
+    
+    .add-on {
+        width: 100%;
+        padding-block: 2em;
+    }
 }
 
 @media (min-width: 400px) {
@@ -216,6 +233,24 @@ ul li {
 
     .fab {
         font-size: 1em;
+    }
+    .flex .ticket {
+        width: 100%;
+        flex-flow: row nowrap;
+    }
+
+    .separator {
+        height: 1px;
+        width: 100%;
+    }
+    .add-on-title {
+        width: 100%;
+        flex-flow: row;
+    }
+    
+    .add-on {
+        width: 100%;
+        padding-block: 2em;
     }
 
 }
@@ -239,12 +274,48 @@ ul li {
     .fab {
         font-size: 1em;
     }
+    .flex .ticket {
+        width: 100%;
+        flex-flow: row nowrap;
+    }
+
+    .separator {
+        height: 1px;
+        width: 100%;
+    }
+    .add-on-title {
+        width: 100%;
+        flex-flow: row;
+    }
+    
+    .add-on {
+        width: 100%;
+        padding-block: 2em;
+    }
 
 }
 
 @media (min-width: 800px) {
     .title {
         font-size: 3em;
+    }
+    .flex .ticket {
+        width: 100%;
+        flex-flow: row nowrap;
+    }
+
+    .separator {
+        height: 1px;
+        width: 100%;
+    }
+    .add-on-title {
+        width: 100%;
+        flex-flow: row;
+    }
+    
+    .add-on {
+        width: 100%;
+        padding-block: 2em;
     }
 
 }
@@ -257,12 +328,48 @@ ul li {
     .fa-sort-down {
         visibility: visible;
     }
+    .flex .ticket {
+        width: 100%;
+        flex-flow: row nowrap;
+    }
+
+    .separator {
+        height: 1px;
+        width: 100%;
+    }
+    .add-on-title {
+        width: 100%;
+        flex-flow: row;
+    }
+    
+    .add-on {
+        width: 100%;
+        padding-block: 2em;
+    }
 
 }
 
 @media (width: 768px) and (height: 1024px) {
     .fa-sort-down {
         visibility: visible;
+    }
+    .flex .ticket {
+        width: 100%;
+        flex-flow: row nowrap;
+    }
+
+    .separator {
+        height: 1px;
+        width: 100%;
+    }
+    .add-on-title {
+        width: 100%;
+        flex-flow: row;
+    }
+    
+    .add-on {
+        width: 100%;
+        padding-block: 2em;
     }
 }
 
@@ -323,7 +430,7 @@ section strong {
 @media (max-width: 1024px) {
     .flex {
         flex-flow: column nowrap;
-        padding-inline: 15%;
+        padding-inline: 2%;
     }
 
     .flex .ticket {

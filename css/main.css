@@ -439,8 +439,14 @@ section strong {
     }
 
     .separator {
+        align-self: center;
         height: 1px;
-        width: 70%;
+        width: 50%;
+    }
+    .separator_line {
+        align-self: center;
+        height: 1px;
+        width: 100%;
     }
     .add-on-title {
         width: 100%;

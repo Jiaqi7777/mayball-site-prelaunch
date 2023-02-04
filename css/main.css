@@ -18,9 +18,9 @@ body {
 }
 
 .logo {
-    /* width: min(1000px, 100%); */
+    width: min(800px, 100%);
     /* width: 1000px */
-    height: 600px;
+    /* height: 600px; */
 }
 
 .logo path, 

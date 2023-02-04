@@ -74,6 +74,13 @@ h2 {
     font-family: "Title-Font", serif; 
 }
 
+h2.committee {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    color: var(--clr-text-primary);
+    font-family: "Subtitle-Font", serif; 
+}
+
 .ball-date {
     font-size: 5em;
 }

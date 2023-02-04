@@ -80,7 +80,7 @@ h2.committee {
 }
 
 .ball-date {
-    font-size: min(5em, 100%);
+    font-size: 5em;
     font-family: "Title-Font"; 
 }
 
@@ -147,6 +147,9 @@ main .email {
 
     #president {
         order: 0;
+    }
+    .ball-date {
+        font-size: 2em;
     }
     
 }
@@ -329,6 +332,9 @@ ul li {
         width: 100%;
         padding-block: 2em;
     }
+    .ball-date {
+        font-size: 5em;
+    }
 
 }
 
@@ -353,6 +359,9 @@ ul li {
     .add-on {
         width: 100%;
         padding-block: 2em;
+    }
+    .ball-date {
+        font-size: 5em;
     }
 
 }
@@ -382,6 +391,9 @@ ul li {
     .add-on {
         width: 100%;
         padding-block: 2em;
+    }
+    .ball-date {
+        font-size: 5em;
     }
 
 }
@@ -498,5 +510,8 @@ section strong {
     .add-on {
         width: 100%;
         padding-block: 2em;
+    }
+    .ball-date {
+        font-size: 2em;
     }
 }

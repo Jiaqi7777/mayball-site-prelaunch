@@ -157,9 +157,6 @@ main .email {
     
 }
 @media (max-width: 400px) {
-    .committee-member {
-        flex-basis: 60%;
-    }
 
     #president {
         order: 0;
@@ -170,10 +167,7 @@ main .email {
     h2.committee {
         font-size: 1em;
     }
-    .committee-member{
-        width: 60%;
-        flex-basis: 30%;
-    }
+
     br{
         font: 1em;
     }
@@ -543,9 +537,6 @@ section strong {
         font-size: 1em;
     }
     .committee-member{
-        flex-basis: 30%;
-    }
-    br{
-        font: 1em;
+        width: 30%;
     }
 }

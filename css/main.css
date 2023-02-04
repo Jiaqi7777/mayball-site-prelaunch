@@ -521,4 +521,7 @@ section strong {
     .committee-member{
         flex-basis: 10%;
     }
+    br{
+        font: 1em;
+    }
 }

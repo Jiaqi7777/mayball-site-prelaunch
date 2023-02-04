@@ -141,7 +141,7 @@ main .email {
 }
 
 /* for small screens, move from three columns to one */
-@media (max-width: 992px) {
+@media (max-width: 792px) {
     .committee-member {
         flex-basis: 100%;
     }

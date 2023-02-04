@@ -2,7 +2,13 @@
 
 @font-face {
     font-family: Title-Font;
-    src: url(/misc/TitleFont.ttf);
+    /* src: url(/misc/TitleFont.ttf); */
+    src: url('font/DMSeriDisplay-Regular.ttf');
+  }
+@font-face {
+    font-family: Subtitle-Font;
+    /* src: url(/misc/TitleFont.ttf); */
+    src: url('font/DMSeriDisplay-Italic.ttf');
   }
 
 :root {

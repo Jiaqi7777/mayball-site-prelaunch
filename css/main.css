@@ -172,6 +172,7 @@ nav {
   
   
   .navlinks li a {
+    color: white;
     text-decoration: none;
     vertical-align: middle
   }

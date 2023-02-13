@@ -128,7 +128,7 @@ nav {
     background-color: rgb(103, 43, 43);
   }
   /* TODO mobile menu */
-  @media (max-width: 3024px) {
+  @media (max-width: 1024px) {
     .navlinks {
       display: none;
     }

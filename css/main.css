@@ -20,6 +20,12 @@
     --clr-text-secondary:#CAFCFF;
 }
 
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
 body {
     background-color: var(--clr-pink) !important;
 }
@@ -172,7 +178,6 @@ nav {
   
   
   .navlinks li a {
-    color: white;
     text-decoration: none;
     vertical-align: middle
   }
@@ -213,7 +218,9 @@ p {
     padding-left: 15%;
     padding-right: 15%; 
 }
-
+a {
+    color: white;
+}
 footer {
     font-size: 0.8em;
     color: var(--clr-text-secondary); 

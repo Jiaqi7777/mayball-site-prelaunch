@@ -127,7 +127,7 @@ nav {
   li a:hover {
     background-color: var(--clr-text-primary);
     color: var(--clr-wheat);
-    border-radius:10px;
+    border-radius:5px;
   }
   /* TODO mobile menu */
   @media (max-width: 1024px) {

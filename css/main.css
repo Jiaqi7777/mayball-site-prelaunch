@@ -74,7 +74,7 @@ a.button {
   }
   
   a.button:hover {
-    background-color: var(--clr-purple);
+    background-color: var(--clr-text-primary);
     color: var(--clr-wheat);
     transform: scale(1.1);
     box-shadow: 0 0 10px white;
@@ -125,7 +125,8 @@ nav {
     color: var(--clr-text-secondary);
   }
   li a:hover {
-    background-color: rgb(103, 43, 43);
+    background-color: var(--clr-text-primary);
+    color: var(--clr-wheat);
   }
   /* TODO mobile menu */
   @media (max-width: 1024px) {

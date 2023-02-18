@@ -1,11 +1,11 @@
 :root {
     --clr-purple: #7618C1;
-    --test-color: #5bbad5;
+    --clr-wheat: #F4EDE2;
     --test-color2: #da532c;
     --clr-pink: #E057AB;
     --clr-logo: white;
-    --clr-text-primary: white;
-    --clr-text-secondary:#CAFCFF;
+    --clr-text-primary: #482A1F;
+    --clr-text-secondary: black;
 }
 
 *,

@@ -30,6 +30,7 @@ body {
 table, th, td {
     border: none;
     color: var(--clr-text-primary);
+    width:100%;
   }
 .logo {
     width: min(1000px, 100%);

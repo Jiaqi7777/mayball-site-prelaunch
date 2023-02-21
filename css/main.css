@@ -419,6 +419,10 @@ ul li {
         width: 100%;
         padding-block: 2em;
     }
+    .policy {
+        width: 100%;
+        padding-block: 2em;
+    }
 }
 
 @media (min-width: 400px) {
@@ -444,6 +448,10 @@ ul li {
     }
     
     .add-on {
+        width: 100%;
+        padding-block: 2em;
+    }
+    .policy {
         width: 100%;
         padding-block: 2em;
     }
@@ -487,6 +495,10 @@ ul li {
         width: 100%;
         padding-block: 2em;
     }
+    .policy {
+        width: 100%;
+        padding-block: 2em;
+    }
     .ball-date {
         font-size: 5em;
     }
@@ -512,6 +524,10 @@ ul li {
     }
     
     .add-on {
+        width: 100%;
+        padding-block: 2em;
+    }
+    .policy {
         width: 100%;
         padding-block: 2em;
     }
@@ -547,6 +563,10 @@ ul li {
         width: 100%;
         padding-block: 2em;
     }
+    .policy {
+        width: 100%;
+        padding-block: 2em;
+    }
     .ball-date {
         font-size: 5em;
     }
@@ -572,6 +592,10 @@ ul li {
     }
     
     .add-on {
+        width: 100%;
+        padding-block: 2em;
+    }
+    .policy {
         width: 100%;
         padding-block: 2em;
     }
@@ -634,7 +658,10 @@ section strong {
     width: 33%;
     padding-block: 2em;
 }
-
+.policy {
+    width: 50%;
+    padding-block: 2em;
+}
 
 @media (max-width: 1024px) {
     .flex {
@@ -663,6 +690,10 @@ section strong {
     }
     
     .add-on {
+        width: 100%;
+        padding-block: 2em;
+    }
+    .policy {
         width: 100%;
         padding-block: 2em;
     }

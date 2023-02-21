@@ -27,7 +27,9 @@
 body {
     background-color: var(--clr-wheat) !important;
 }
-
+table, th, td {
+    border: none;
+  }
 .logo {
     width: min(1000px, 100%);
     /* width: 1000px */

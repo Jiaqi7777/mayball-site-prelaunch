@@ -252,8 +252,13 @@ footer {
 }
 
 
-
+a:hover{
+    background-color: var(--clr-text-primary);
+    color: var(--clr-wheat);
+    border-radius:5px;
+}
 main .email {
+    display: inline;
     text-transform: lowercase;
     letter-spacing: 0.4pt;
     font-size: 10pt;

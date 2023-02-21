@@ -236,6 +236,9 @@ p {
     padding-left: 15%;
     padding-right: 15%; 
 }
+.flex{
+    text-align: left;
+}
 a {
     color: white;
 }

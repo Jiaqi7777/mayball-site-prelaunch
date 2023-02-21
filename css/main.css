@@ -217,6 +217,12 @@ h2 {
     color: var(--clr-text-primary);
     font-family: "Title-Font"; 
 }
+h3 {
+    text-transform: capitalize;
+    font-size: 1em;
+    color: var(--clr-text-primary);
+    font-family: "Title-Font"; 
+}
 
 h2.committee {
     font-style: italic;

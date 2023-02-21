@@ -125,7 +125,7 @@ nav {
   }
   li a{
     display: block;
-    color: var(--clr-text-secondary);
+    color: var(--clr-text-primary);
   }
   li a:hover {
     background-color: var(--clr-text-primary);

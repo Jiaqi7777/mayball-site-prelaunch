@@ -46,7 +46,10 @@ body {
     stroke: none;
     stroke-width: 0;
 }
-
+table, th, td {
+    border: none;
+    color: var(--clr-text-primary);
+  }
 header {
     display: flex !important;
     width: auto;
@@ -122,7 +125,7 @@ nav {
   }
   li a{
     display: block;
-    color: var(--clr-text-secondary);
+    color: var(--clr-text-primary);
   }
   li a:hover {
     background-color: var(--clr-text-primary);
@@ -213,6 +216,12 @@ h2 {
     color: var(--clr-text-primary);
     font-family: "Title-Font"; 
 }
+h3 {
+    text-transform: capitalize;
+    font-size: 1em;
+    color: var(--clr-text-primary);
+    font-family: "Title-Font"; 
+}
 
 h2.committee {
     font-style: italic;
@@ -243,8 +252,13 @@ footer {
 }
 
 
-
+p a:hover{
+    background-color: var(--clr-text-primary);
+    color: var(--clr-wheat);
+    border-radius:5px;
+}
 main .email {
+    display: inline;
     text-transform: lowercase;
     letter-spacing: 0.4pt;
     font-size: 10pt;
@@ -409,6 +423,10 @@ ul li {
         width: 100%;
         padding-block: 2em;
     }
+    .policy {
+        width: 100%;
+        padding-block: 2em;
+    }
 }
 
 @media (min-width: 400px) {
@@ -434,6 +452,10 @@ ul li {
     }
     
     .add-on {
+        width: 100%;
+        padding-block: 2em;
+    }
+    .policy {
         width: 100%;
         padding-block: 2em;
     }
@@ -477,6 +499,10 @@ ul li {
         width: 100%;
         padding-block: 2em;
     }
+    .policy {
+        width: 100%;
+        padding-block: 2em;
+    }
     .ball-date {
         font-size: 5em;
     }
@@ -502,6 +528,10 @@ ul li {
     }
     
     .add-on {
+        width: 100%;
+        padding-block: 2em;
+    }
+    .policy {
         width: 100%;
         padding-block: 2em;
     }
@@ -537,6 +567,10 @@ ul li {
         width: 100%;
         padding-block: 2em;
     }
+    .policy {
+        width: 100%;
+        padding-block: 2em;
+    }
     .ball-date {
         font-size: 5em;
     }
@@ -562,6 +596,10 @@ ul li {
     }
     
     .add-on {
+        width: 100%;
+        padding-block: 2em;
+    }
+    .policy {
         width: 100%;
         padding-block: 2em;
     }
@@ -624,7 +662,10 @@ section strong {
     width: 33%;
     padding-block: 2em;
 }
-
+.policy {
+    width: 50%;
+    padding-block: 2em;
+}
 
 @media (max-width: 1024px) {
     .flex {
@@ -653,6 +694,10 @@ section strong {
     }
     
     .add-on {
+        width: 100%;
+        padding-block: 2em;
+    }
+    .policy {
         width: 100%;
         padding-block: 2em;
     }
